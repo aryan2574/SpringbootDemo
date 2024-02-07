@@ -1,0 +1,50 @@
+# IDE files
+.idea/
+.vscode/
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+*.iws
+*.iml
+*.ipr
+
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Gradle
+/build/
+.gradle/
+gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Spring Boot
+*.log
+logs/
+spring.log
+
+# Compiled Java classes
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven specific
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Gradle specific
+*.log
+*.properties
