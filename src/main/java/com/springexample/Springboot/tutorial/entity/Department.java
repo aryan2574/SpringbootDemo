@@ -15,9 +15,9 @@ public class Department {
     private Long departmentId;
 
     @NotBlank(message = "Please add department name")
-    @Length(max = 5, min = 1)
-    @Size(max = 10, min = 0)
 //    We can add extra annotations - Validations for our properties
+//    @Length(max = 5, min = 1)
+//    @Size(max = 10, min = 0)
 //    @Email
 //    @Positive
 //    @Negative
