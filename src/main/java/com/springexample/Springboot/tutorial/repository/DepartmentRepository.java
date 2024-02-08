@@ -13,7 +13,7 @@ public interface DepartmentRepository extends JpaRepository<Department, Long> {
     public Department findByDepartmentNameIgnoreCase(String departmentName);
 
 
-    // To pass SQL Query to search
+//     To pass SQL Query to search
 //    @Query(value = "SELECT department from departmentTable", nativeQuery = true)
 //    public Department findByDepartmentNameCustomSearch(String departmentName);
 }
