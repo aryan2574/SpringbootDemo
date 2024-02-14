@@ -1,59 +1,59 @@
-server:
-  port: '8080'
-
-spring:
-  profiles:
-    active: dev
-
----
-
-spring:
-  profiles: dev
-  datasource:
-    driver-class-name: org.h2.Driver
-    username: sa
-    url: jdbc:h2:mem:testdb
-    password: password
-  h2:
-    console:
-      enabled: 'true'
-  jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
-welcome:
-  message: Welcome to spring boot project
-
----
-
-spring:
-  profiles: qa
-  datasource:
-    driver-class-name: org.h2.Driver
-    username: sa
-    url: jdbc:h2:mem:testdb-qa
-    password: password
-  h2:
-    console:
-      enabled: 'true'
-  jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
-welcome:
-  message: Welcome to spring boot project
-
----
-
-spring:
-  profiles: prod
-  datasource:
-    driver-class-name: org.h2.Driver
-    username: sa
-    url: jdbc:h2:mem:testdb-prod
-    password: password
-  h2:
-    console:
-      enabled: 'true'
-  jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
-welcome:
-  message: Welcome to spring boot project
-
----
+#server:
+#  port: '8080'
+#
+#spring:
+#  profiles:
+#    active: dev
+#
+#---
+#
+#spring:
+#  profiles: dev
+#  datasource:
+#    driver-class-name: org.h2.Driver
+#    username: sa
+#    url: jdbc:h2:mem:testdb
+#    password: password
+#  h2:
+#    console:
+#      enabled: 'true'
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#welcome:
+#  message: Welcome to spring boot project
+#
+#---
+#
+#spring:
+#  profiles: qa
+#  datasource:
+#    driver-class-name: org.h2.Driver
+#    username: sa
+#    url: jdbc:h2:mem:testdb-qa
+#    password: password
+#  h2:
+#    console:
+#      enabled: 'true'
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#welcome:
+#  message: Welcome to spring boot project
+#
+#---
+#
+#spring:
+#  profiles: prod
+#  datasource:
+#    driver-class-name: org.h2.Driver
+#    username: sa
+#    url: jdbc:h2:mem:testdb-prod
+#    password: password
+#  h2:
+#    console:
+#      enabled: 'true'
+#  jpa:
+#    database-platform: org.hibernate.dialect.H2Dialect
+#welcome:
+#  message: Welcome to spring boot project
+#
+#---
